@@ -52,7 +52,12 @@ body {
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
-
+Criar 5 projetos em Javascript
+Tempo para completar o objetivo
+Criar um portfolio com os meus 3 melhores projetos
+Tempo para completar o objetivo
+Atualizar meu curriculo com os certificados da Alura
+Tempo para completar o objetivo
 .botao:first-child {
     border-radius: 40px 40px 0 0;
 }
@@ -75,7 +80,12 @@ body {
         border-radius: 40px 0 0 0;
     }
 
-    .botao:last-child {
+    .botao:last-child {Criar 5 projetos em Javascript
+        Tempo para completar o objetivo
+        Criar um portfolio com os meus 3 melhores projetos
+        Tempo para completar o objetivo
+        Atualizar meu curriculo com os certificados da Alura
+        Tempo para completar o objetivo
         border-radius: 0 40px 0 0;
     }
 }
