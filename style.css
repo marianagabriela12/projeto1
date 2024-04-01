@@ -52,12 +52,7 @@ body {
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
-Criar 5 projetos em Javascript
-Tempo para completar o objetivo
-Criar um portfolio com os meus 3 melhores projetos
-Tempo para completar o objetivo
-Atualizar meu curriculo com os certificados da Alura
-Tempo para completar o objetivo
+
 .botao:first-child {
     border-radius: 40px 40px 0 0;
 }
@@ -66,29 +61,24 @@ Tempo para completar o objetivo
     display: block;
 }
 
-.ativo{
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
 
-@media screen and (min-width: 768px) {
-    .botoes {
-        display: flex;
-    }
-
-    .botao:first-child {
-        border-radius: 40px 0 0 0;
-    }
-
-    .botao:last-child {Criar 5 projetos em Javascript
-        Tempo para completar o objetivo
-        Criar um portfolio com os meus 3 melhores projetos
-        Tempo para completar o objetivo
-        Atualizar meu curriculo com os certificados da Alura
-        Tempo para completar o objetivo
-        border-radius: 0 40px 0 0;
-    }
+.abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
 }
+.aba-conteudo.ativo{
+    display:block;
+}
+
+.aba-conteudo{
+    display: none;
+}
+
 .aba-conteudo-titulo-principal{
     font-size: 28px;
     text-align: center;
