@@ -23,8 +23,8 @@ const tempoObjetivo4 = new Date("2036-10-21T23:59:59");
 const tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
 
 
-function calculaTempo(tempoObjetivo) {
-    let tempoAtual = new Date();
+function calculaTempo(tempoObjetivo1) {
+    let tempoAtual = new Date("2032-11-20T23:59:59");
     let tempoFinal = tempoObjetivo - tempoAtual;
     let segundos = Math.floor(tempoFinal / 1000);
     let minutos = Math.floor(segundos / 60);
